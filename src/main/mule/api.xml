@@ -11,7 +11,7 @@
             </http:error-response>
         </http:listener>
         <apikit:router config-ref="api-config" />
-		<error-handler ref="APIKIT-global-errorError_Handler" />
+		<error-handler ref="global-errorError_Handler" />
     </flow>
     <flow name="api-console">
         <http:listener config-ref="httpListenerConfig" path="/console/*">

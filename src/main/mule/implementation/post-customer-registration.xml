@@ -33,5 +33,6 @@ output application/json
 			</ee:message>
 			<ee:variables />
 		</ee:transform>
+		<error-handler ref="global-errorError_Handler" />
 	</flow>
 </mule>
