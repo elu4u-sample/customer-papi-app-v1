@@ -12,5 +12,4 @@ http://www.mulesoft.org/schema/mule/api-gateway http://www.mulesoft.org/schema/m
         <http:listener-connection host="0.0.0.0" port="8082" />
     </http:listener-config>
     <apikit:config name="api-config" api="resource::6fe6500a-8a36-473d-89eb-51336170bcb4:customer-papi-raml:1.0.1:raml:zip:api.raml" outboundHeadersMapName="outboundHeaders" httpStatusVarName="httpStatus" />
-	<api-gateway:autodiscovery apiId="19198861" ignoreBasePath="true" doc:name="API Autodiscovery" doc:id="bd560d24-19b7-4679-9701-2cfc5157a7b9" flowRef="api-main" />
 	</mule>
